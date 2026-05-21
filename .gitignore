@@ -1,0 +1,40 @@
+# Build output
+build/
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Binaries (project targets)
+/sockify
+/test_sockify
+
+# Debug / coverage
+*.gcno
+*.gcda
+*.gcov
+coverage/
+*.dSYM/
+core
+vgcore.*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+compile_commands.json
+.clangd/
+.ccls-cache/
+
+# OS
+.DS_Store
+Thumbs.db
