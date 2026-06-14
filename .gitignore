@@ -21,7 +21,7 @@ build/
 *.gcov
 coverage/
 *.dSYM/
-core
+/core
 vgcore.*
 
 # Editor / IDE
